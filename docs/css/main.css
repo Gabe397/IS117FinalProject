@@ -15,6 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+
 }
 
 /*
@@ -100,10 +101,12 @@ textarea {
 
 
 .masthead {
+  height: 100px;
+  background-color: #000000;
 }
 
 .masthead-brand {
-  margin-bottom: 0;
+  color:snow;
 }
 
 /* Padding for spacing */
@@ -114,14 +117,14 @@ textarea {
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: bold;
-  color: black;
+  color: snow;
   background-color: transparent;
   border-bottom: .25rem solid transparent;
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: black;
+  border-bottom-color: snow;
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -129,7 +132,6 @@ textarea {
 }
 
 .nav-masthead .active {
-  color: black;
   border-bottom-color: white;
 }
 
@@ -157,8 +159,8 @@ a:hover {
 html,
 body {
   height: 100%;
-  padding-top: 20px;
   padding-bottom: 20px;
+  background-color: #000000;
 }
 
 body {
@@ -193,19 +195,26 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-  color:snow;
   height:500px;
 }
 .jumbotron .btn {
   padding: 14px 24px;
   font-size: 21px;
+  background-color: #828E84;
+  border:black;
+  color: black;
 
 }
 
 #jumbText{
   position: relative;
   top: 100px;
+}
+
+.botButCol{
+  background-color: #1e1b28;
+  border: black;
+  color: white;
 }
 
 /* ==========================================================================
@@ -219,7 +228,6 @@ body {
 .hidden {
   display: none !important;
 }
-
 /*
 * Hide only visually, but have it available for screen readers:
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
