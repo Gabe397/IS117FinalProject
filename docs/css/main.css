@@ -189,13 +189,23 @@ body {
 }
 
 .jumbotron {
+  background-image: url('../img/Copy.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
-  background-image: url("..\docs\img\Arpanet.jpg");
+  color:snow;
+  height:500px;
 }
 .jumbotron .btn {
   padding: 14px 24px;
   font-size: 21px;
+
+}
+
+#jumbText{
+  position: relative;
+  top: 100px;
 }
 
 /* ==========================================================================
