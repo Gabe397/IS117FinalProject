@@ -227,7 +227,9 @@ body {
   bottom: 30px;
 }
 
-.contentTitle{}
+.positionCardTitle{
+  display:list-item;
+}
 
 /*TimeLine*/
 ul.timeline {
