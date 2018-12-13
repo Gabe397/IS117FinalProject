@@ -227,6 +227,8 @@ body {
   bottom: 30px;
 }
 
+.contentTitle{}
+
 /*TimeLine*/
 ul.timeline {
   list-style-type: none;
