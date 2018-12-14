@@ -99,13 +99,14 @@ textarea {
   Author's custom styles
   ========================================================================== */
 
-
 .masthead {
-height:150px;
+  height: auto;
+  background: black;
+  font-size: 25px;
 }
 
 .masthead-brand {
-  color:snow;
+  color: snow;
 }
 
 /* Padding for spacing */
@@ -160,12 +161,11 @@ body {
   height: 100%;
   padding-bottom: 20px;
   background-image: url('../img/net.png');
-  min-height : 100%;
-  min-width : 100%;
-  background-size:100% 100%;
-  background-repeat:no-repeat;
+  min-height: 100%;
+  min-width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   overflow-x: hidden;
-
 
 }
 
@@ -201,34 +201,50 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  height:500px;
+  height: 500px;
 }
+
 .jumbotron .btn {
   padding: 14px 24px;
   font-size: 21px;
   background-color: #828E84;
-  border:black;
+  border: black;
   color: black;
 
 }
 
-#jumbText{
+#jumbText {
   position: relative;
   top: 100px;
 }
 
-.botButCol{
+.botButCol {
   background-color: #1e1b28;
   border: black;
   color: white;
 }
 
-.logoPos{
-  bottom: 30px;
+.black{
+  background:black;
 }
 
-.positionCardTitle{
-  display:list-item;
+.logoPos {
+  bottom: 15px;
+}
+
+.menuPos {
+  top: 15px;
+}
+
+.positionCardTitle {
+  display: list-item;
+}
+
+.fontTitleARPA{
+  font-size: 40px;
+}
+.fontTextArpa{
+ font-size:22px;
 }
 
 /*TimeLine*/
@@ -236,6 +252,7 @@ ul.timeline {
   list-style-type: none;
   position: relative;
 }
+
 ul.timeline:before {
   content: ' ';
   background: #d4d9df;
@@ -246,10 +263,12 @@ ul.timeline:before {
   height: 100%;
   z-index: 400;
 }
+
 ul.timeline > li {
   margin: 20px 0;
   padding-left: 20px;
 }
+
 ul.timeline > li:before {
   content: ' ';
   background: #0a0a09;
@@ -274,6 +293,7 @@ ul.timeline > li:before {
 .hidden {
   display: none !important;
 }
+
 /*
 * Hide only visually, but have it available for screen readers:
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
